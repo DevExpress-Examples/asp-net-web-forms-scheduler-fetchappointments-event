@@ -1,9 +1,10 @@
 <!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128546743/17.1.9%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E489)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Scheduler for ASP.NET Web Forms - How to handle the FetchAppointment event to enhance performance when handling a large number of appointments
+# Scheduler for ASP.NET Web Forms - How to enhance scheduler performance when handling a large number of appointments
 
 This example demonstrates how to handle the [FetchAppointments](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxScheduler.ASPxSchedulerDataWebControlBase.FetchAppointments) event to dynamically limit the number of appointments loaded into the scheduler storage to the appointments actually shown. This approach can be useful when a scheduler contains a large amount of data, and only a small part of it needs to be loaded at one time.
 
